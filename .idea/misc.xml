@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/drawable/boeder.xml" value="0.1825" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/drawable/button_background.xml" value="0.1825" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/drawable/custom_progressbar.xml" value="0.1825" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/drawable/custom_seekbar.xml" value="0.1825" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/drawable/custom_seekbar_progress.xml" value="0.1825" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/drawable/ic_baseline_autorenew_24.xml" value="0.1825" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.1825" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/drawable/rounded_corner.xml" value="0.1825" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/drawable/seekbar_track.xml" value="0.1825" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/drawable/selector_bottom_nav_icon.xml" value="0.1825" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/drawable/spinner_rounded_corners.xml" value="0.1825" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/drawable/textview_background.xml" value="0.1825" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/layout/activity_main.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/layout/business.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/layout/custom_progress_bar_layout.xml" value="0.1952991452991453" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/layout/merchantfragment.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/layout/personalfragment.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/layout/refine.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/shiva/Downloads/netclanTask/app/src/main/res/menu/button_navigation_bar.xml" value="0.23802083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

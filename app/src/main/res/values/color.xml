@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#143E59</color>
+    <color name="colorSecondry">#0A2E41</color>
+    <color name="myTextColor">#FFFFFF</color>
+    <color name="bottom_nav_text_color">#143E59</color> <!-- Replace #FF0000 with your desired text color -->
+    <color name="bottom_nav_icon_color">#0A2E41</color>
+</resources>

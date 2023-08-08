@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Navigation drawer layout
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/navigationDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white" />-->
+
+    <!-- Main content layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Horizontal LinearLayout for icons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorSecondry"
+            android:orientation="horizontal">
+
+            <!-- Hamburger icon at the leftmost top -->
+            <ImageView
+                android:id="@+id/hamburgerIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/hamburger" />
+
+            <!-- Space between icons and live location -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- Live location TextView or any other UI element -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/liveLocationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:text="Howdy Smith !!"
+                android:textColor="@color/myTextColor"
+                android:textSize="12dp" />
+                <TextView
+                    android:id="@+id/liveLocationTextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="New York,USA"
+                    android:textColor="@color/myTextColor"
+                    android:textSize="10dp" />
+            </LinearLayout>
+            <!-- Other icon at the rightmost top -->
+            <ImageView
+                android:id="@+id/otherIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/other_icon" />
+
+        </LinearLayout>
+
+        <!-- FrameLayout to hold the TabLayout and the highlighter -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Highlighter view -->
+            <View
+                android:id="@+id/highlighterView"
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"
+                android:layout_gravity="bottom"
+                android:background="@color/highlighterColor" />
+
+            <!-- TabLayout to display the tabs -->
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:tabIndicatorColor="@android:color/white"
+                app:tabSelectedTextColor="@android:color/white"
+                app:tabTextAppearance="@style/TabLayoutTextAppearance"
+                app:tabTextColor="@android:color/darker_gray" />
+
+
+        </FrameLayout>
+
+        <!-- ViewPager to host the fragments -->
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+        </androidx.viewpager.widget.ViewPager>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navbar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="1dp"
+            app:labelVisibilityMode="labeled"
+
+            style="@style/CustomBottomNavigationStyle"
+            android:layout_marginRight="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:menu="@menu/button_navigation_bar"
+            app:itemTextColor="@color/bottom_nav_text_color"
+            app:itemIconTint="@color/bottom_nav_icon_color"
+            app:layout_constraintVertical_bias="1.0"
+
+
+            app:itemIconSize="40dp"
+            />
+    </LinearLayout>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+
